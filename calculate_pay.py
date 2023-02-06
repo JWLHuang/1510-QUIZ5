@@ -1,4 +1,19 @@
 def calculate_pay(hours, wage):
+    """
+    Returns the weekly pay of an employee.
+
+    :param hours: a real number
+    :param wage: a real number
+    :postcondition: calculate the weekly pay given hours and wage
+    :return: weekly pay returned as a float value
+
+    >>> calculate_pay(10,10)
+    100
+
+    >>> calculate_pay(50, 10)
+    600
+
+    """
     total_wage = 0
     double_wage = 2 * wage
     over_time_hours = 0
