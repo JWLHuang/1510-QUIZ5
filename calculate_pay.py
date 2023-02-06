@@ -1,13 +1,22 @@
 def calculate_pay(hours, wage):
+    """
+    Return the calculation of weekly pay.
+
+    :param hours: a real number
+    :param wage: a real number
+    :postcondition: calculates the weekly pay
+    :return: returns weekly pay as a float value
+
+
+    """
     total_wage = 0
     double_wage = 2 * wage
     if hours <= 0 or wage <= 0:
         return 0
-
     if hours > 40:
         range_of_hours = range(41, hours+1)
         for i in range_of_hours:
-            wages
+
     if hours <= 40:
         total_wage += hours * wage
 
